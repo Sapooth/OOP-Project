@@ -7,7 +7,7 @@ public class DBConnection {
 	
 	private static String url =  "jdbc:mysql://localhost:3306/user_profile";
 	private static String userName = "root";
-	private static String password = "s1apooth11.";
+	private static String password = "########";//Enter your database password
 	private static Connection con;
 	
 	public static Connection getConnection() {
